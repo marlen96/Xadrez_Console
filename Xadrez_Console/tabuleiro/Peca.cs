@@ -15,5 +15,6 @@ namespace tabuleiro
             QteMovimentos = 0;
             Tabuleiro = tabuleiro;
         }
+
     }
 }
