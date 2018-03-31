@@ -65,7 +65,7 @@ namespace Xadrez_Console
             else
             {
 
-                if (peca.Cor == Cor.branca)
+                if (peca.Cor == Cor.Branca)
                 {
                     Console.Write(peca);
                 }
