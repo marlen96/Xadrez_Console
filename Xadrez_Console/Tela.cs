@@ -76,7 +76,7 @@ namespace Xadrez_Console
 
             for (int i = 0; i < tab.Linhas; i++)
             {
-                Console.Write(8 - i + " ");
+                Console.Write(8 - i + "  ");
                 for (int j = 0; j < tab.Colunas; j++)
                 {
                     if (PosicoesPossiveis[i, j])
@@ -91,7 +91,8 @@ namespace Xadrez_Console
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("  A B C D E F G H ");
+            Console.WriteLine();
+            Console.WriteLine("   A B C D E F G H ");
             Console.BackgroundColor = FundoOriginal;
         }
 
